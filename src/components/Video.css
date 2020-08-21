@@ -1,0 +1,27 @@
+/** @format */
+
+.video {
+	height: 100%;
+	color: #fff;
+	scroll-snap-align: start;
+	width: 100%;
+	position: relative;
+}
+.video__player {
+	object-fit: contain;
+	cursor: pointer;
+	border-radius: 25px;
+	width: 500px !important;
+	height: 600px;
+}
+.video__top {
+	position: absolute;
+	left: 90px;
+	top: 20px;
+}
+.video__top h4 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80px;
+}

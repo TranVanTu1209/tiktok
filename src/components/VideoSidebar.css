@@ -1,0 +1,16 @@
+/** @format */
+
+.videoSidebar {
+	position: absolute;
+	right: 100px;
+	bottom: 300px;
+}
+.videoSidebar__option {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	line-height: 1.8;
+	margin-bottom: 15px;
+	cursor: pointer;
+	text-align: center;
+}
